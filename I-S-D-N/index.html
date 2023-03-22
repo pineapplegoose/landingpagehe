@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="isdn.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+</head>
+<body>
+    <div class="nav" id="topnav">
+        <div class="container">
+            <img class="logo" src="logo.svg">
+            <div class="fluf">
+                <div class="firstpart">
+                    <ul class="manav">
+                        <div class="dropdown">
+                            <ol><a href="#" id="dropbtn" onclick="myFunction()">Features <img id="arrow" class="arrow" src="icon-arrow-down.svg"></a></ol>
+                            <div class="dropdown-content" id="content">
+                                <a href="#"><img src="icon-todo.svg"> &nbsp;To-do List</a>
+                                <a href="#"><img src="icon-calendar.svg"> &nbsp;Calendar</a>
+                                <a href="#"><img src="icon-reminders.svg"> &nbsp;Reminders</a>
+                                <a href="#"><img src="icon-planning.svg"> &nbsp;Planning</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <ol><a href="#" id="dropbtnn" onclick="myFunctionn()">Company <img id="arrowe" class="arrowe" src="icon-arrow-down.svg"></a></ol>
+                            <div class="dropdown-content" id="contentt">
+                                <a href="#">History</a>
+                                <a href="#">Our Team</a>
+                                <a href="#">Blog</a>
+                            </div>
+                        </div>
+                        <ol><a href="#">Careers</a></ol>
+                        <ol><a href="#">About</a></ol>
+                    </ul>
+                </div>
+                <div class="secondpart">
+                    <a href="#" id="menu" onclick="menyou()"><img  src="icon-menu.svg"></a>
+                    <ul class="loreg">
+                        <ol><a href="#"class="login">Login</a></ol>
+                        <ol><button class="register">Register</button></ol>
+                    </ul>
+                </div>
+            </div>
+        </div>   
+    </div>
+    <div class="main">
+        <div class="part1">
+            <h1 class="head1"> Make remote work</h1>
+
+            <p class="par"> Get your team in sync, no matter your location. Streamline processes, 
+            create team rituals, and watch productivity soar.</p>
+
+            <button class="learn">Learn more</button>
+            <div class="bottom">
+                <img src="client-databiz.svg">
+                <img src="client-audiophile.svg">
+                <img src="client-meet.svg">
+                <img src="client-maker.svg">
+            </div>
+        </div>
+        <div class="part2">
+            <img class="im" src="image-hero-desktop.png">
+        </div>
+    </div>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script src="isdn.js"></script>
+</body>
+</html>
